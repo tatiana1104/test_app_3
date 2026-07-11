@@ -4,7 +4,7 @@
 
 ```mermaid
 flowchart TD
-  A[MaterialApp (lib/main.dart)] --> B[SplashScreen]
+  A["MaterialApp (lib/main.dart)"] --> B[SplashScreen]
   B -->|Timer 3s| C[SignInScreen]
   C --> D[SignUpScreen]
   C --> E[RecoveryPasswordScreen]
